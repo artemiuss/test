@@ -33,12 +33,12 @@ jobs:
           path: test
           fetch-depth: 0
 
-      - name: Upload pages artifact
-        id: upload_pages_artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: 'test/gh_pages'
+      # - name: Upload pages artifact
+      #   id: upload_pages_artifact
+      #   uses: actions/upload-pages-artifact@v3
+      #   with:
+      #     path: 'test/gh_pages'
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      # - name: Deploy to GitHub Pages
+      #   id: deployment
+      #   uses: actions/deploy-pages@v4
