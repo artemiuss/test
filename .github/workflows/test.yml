@@ -22,9 +22,9 @@ jobs:
     timeout-minutes: 20
     runs-on: ubuntu-latest
     # Deploy to the github-pages environment
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    # environment:
+    #   name: github-pages
+    #   url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout test repository
         id: checkout_coredatabase_repo
