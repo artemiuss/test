@@ -2,7 +2,8 @@ name: DB Objects Registry Update
 
 on:
   push:
-    branches: [ ]
+    branches:
+      - '**' # Runs on every branch push
   pull_request:
     branches: [ ]
   # Allows to run this workflow manually from the Actions tab
